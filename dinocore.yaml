@@ -30,18 +30,18 @@ tasks:
     dest: ./tmp/dinorcore
 
   - action: move_path
-    src: ./tmp/dinorcore/server.cfg
+    src: ./tmp/qbrcore/server.cfg
     dest: ./server.cfg
 
   - action: move_path
-    src: ./tmp/dinocore/myLogo.png
+    src: ./tmp/qbrcore/myLogo.png
     dest: ./myLogo.png
 
 ##################################################################### Prepare Database
 
   - action: connect_database
   - action: query_database
-    file: ./tmp/dinocore/dinocore.sql
+    file: ./tmp/qbrcore/dinocore.sql
 
 ##################################################################### Downloading Standalone Resources
 
