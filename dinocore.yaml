@@ -97,37 +97,37 @@ tasks:
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-core
     ref: main
-    dest: ./resources/[qbr]/qbr-core
+    dest: ./resources/[dinocore]/qbr-core
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-hud
     ref: main
-    dest: ./resources/[qbr]/qbr-hud
+    dest: ./resources/[dinocore]/qbr-hud
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-inventory
     ref: main
-    dest: ./resources/[qbr]/qbr-inventory
+    dest: ./resources/[dinocore]/qbr-inventory
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-menu
     ref: main
-    dest: ./resources/[qbr]/qbr-menu
+    dest: ./resources/[dinocore]/qbr-menu
   
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-smallresources
     ref: main
-    dest: ./resources/[qbr]/qbr-smallresources
+    dest: ./resources/[dinocore]/qbr-smallresources
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-spawn
     ref: main
-    dest: ./resources/[qbr]/qbr-spawn
+    dest: ./resources/[dinocore]/qbr-spawn
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-weathersync
     ref: main
-    dest: ./resources/[qbr]/qbr-weathersync
+    dest: ./resources/[dinocore]/qbr-weathersync
     
 ##################################################################### End
   
