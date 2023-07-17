@@ -27,10 +27,10 @@ tasks:
   - action: download_github
     src: https://github.com/DinoCROTH/txAdminRecipe
     ref: main
-    dest: ./tmp/dinocore
+    dest: ./tmp/dinorcore
 
   - action: move_path
-    src: ./tmp/dinocore/server.cfg
+    src: ./tmp/dinorcore/server.cfg
     dest: ./server.cfg
 
   - action: move_path
@@ -173,7 +173,6 @@ tasks:
     src: https://github.com/qbcore-redm-framework/qbr-weathersync
     ref: main
     dest: ./resources/[qbr]/qbr-weathersync
-
     
 ##################################################################### End
   
