@@ -97,13 +97,22 @@ tasks:
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-core
     ref: main
-    dest: ./resources/[qbr]/qbr-core
+    dest: ./resources/[dinocore]/dinocore-core
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-hud
     ref: main
-    dest: ./resources/[qbr]/qbr-hud
+    dest: ./resources/[dinocore]/qbr-hud
 
+   - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-inventory
+    ref: main
+    dest: ./resources/[dinocore]/qbr-inventory   
+
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-smallresources
+    ref: main
+    dest: ./resources/[dinocore]/qbr-smallresources
     
 
   - action: download_github
@@ -118,7 +127,6 @@ tasks:
 
 
 
-
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-input
@@ -130,10 +138,7 @@ tasks:
     ref: main
     dest: ./resources/[qbr]/qbr-interiors
     
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-inventory
-    ref: main
-    dest: ./resources/[qbr]/qbr-inventory
+
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-management
