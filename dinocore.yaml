@@ -95,6 +95,18 @@ tasks:
 ##################################################################### Download Core resources
 
   - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-core
+    ref: main
+    dest: ./resources/[qbr]/qbr-core
+
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-hud
+    ref: main
+    dest: ./resources/[qbr]/qbr-hud
+
+    
+
+  - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-adminmenu
     ref: main
     dest: ./resources/[qbr]/qbr-adminmenu
@@ -104,15 +116,9 @@ tasks:
     ref: main
     dest: ./resources/[qbr]/qbr-clothing
 
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-core
-    ref: main
-    dest: ./resources/[qbr]/qbr-core
 
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-hud
-    ref: main
-    dest: ./resources/[qbr]/qbr-hud
+
+
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-input
