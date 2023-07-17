@@ -21,7 +21,9 @@ fork: Dinocroth
 description: Dinocroth RedM Build
 
 tasks:
-  # Download Base Files
+
+##################################################################### Download Base Files
+
   - action: download_github
     src: https://github.com/qbcore-redm-framework/txAdminRecipe
     ref: main
@@ -35,13 +37,14 @@ tasks:
     src: ./tmp/qbrcore/myLogo.png
     dest: ./myLogo.png
 
-  # Prepare Database
+##################################################################### Prepare Database
+
   - action: connect_database
   - action: query_database
     file: ./tmp/qbrcore/qbrcore.sql
 
+##################################################################### Downloading Standalone Resources
 
-  # Downloading Standalone Resources  
   - action: download_github
     src: https://github.com/citizenfx/cfx-server-data
     subpath: resources
@@ -89,7 +92,8 @@ tasks:
     ref: main
     src: https://github.com/qbcore-redm-framework/mediccamp
 
-  # Download QBCore resources
+##################################################################### Download Core resources
+
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-adminmenu
     ref: main
@@ -199,6 +203,8 @@ tasks:
     src: https://github.com/qbcore-redm-framework/qbr-weathersync
     ref: main
     dest: ./resources/[qbr]/qbr-weathersync
+    
+##################################################################### End
   
   # Clean up
   - action: remove_path
