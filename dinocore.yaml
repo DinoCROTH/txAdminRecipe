@@ -25,23 +25,23 @@ tasks:
 ##################################################################### Download Base Files
 
   - action: download_github
-    src: https://github.com/qbcore-redm-framework/txAdminRecipe
+    src: https://github.com/DinoCROTH/txAdminRecipe
     ref: main
-    dest: ./tmp/qbrcore
+    dest: ./tmp/dinocore
 
   - action: move_path
-    src: ./tmp/qbrcore/server.cfg
+    src: ./tmp/dinocore/server.cfg
     dest: ./server.cfg
 
   - action: move_path
-    src: ./tmp/qbrcore/myLogo.png
+    src: ./tmp/dinocore/myLogo.png
     dest: ./myLogo.png
 
 ##################################################################### Prepare Database
 
   - action: connect_database
   - action: query_database
-    file: ./tmp/dinocore/qbrcore.sql
+    file: ./tmp/dinocore/dinocore.sql
 
 ##################################################################### Downloading Standalone Resources
 
