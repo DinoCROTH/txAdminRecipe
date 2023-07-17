@@ -98,16 +98,6 @@ tasks:
     src: https://github.com/qbcore-redm-framework/qbr-adminmenu
     ref: main
     dest: ./resources/[qbr]/qbr-adminmenu
-  
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-ambulancejob
-    ref: main
-    dest: ./resources/[qbr]/qbr-ambulancejob
-
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-banking
-    ref: main
-    dest: ./resources/[qbr]/qbr-banking
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-clothing
@@ -118,11 +108,6 @@ tasks:
     src: https://github.com/qbcore-redm-framework/qbr-core
     ref: main
     dest: ./resources/[qbr]/qbr-core
-
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-doorlock
-    ref: main
-    dest: ./resources/[qbr]/qbr-doorlock
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-hud
@@ -145,11 +130,6 @@ tasks:
     dest: ./resources/[qbr]/qbr-inventory
     
   - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-lockpick
-    ref: main
-    dest: ./resources/[qbr]/qbr-lockpick
-    
-  - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-management
     ref: main
     dest: ./resources/[qbr]/qbr-management
@@ -163,11 +143,6 @@ tasks:
     src: https://github.com/qbcore-redm-framework/qbr-multicharacter
     ref: main
     dest: ./resources/[qbr]/qbr-multicharacter
-
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-policejob
-    ref: main
-    dest: ./resources/[qbr]/qbr-policejob
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-scoreboard
@@ -188,11 +163,6 @@ tasks:
     src: https://github.com/qbcore-redm-framework/qbr-spawn
     ref: main
     dest: ./resources/[qbr]/qbr-spawn
-    
-  - action: download_github
-    src: https://github.com/qbcore-redm-framework/qbr-stable
-    ref: main
-    dest: ./resources/[qbr]/qbr-stable
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-weapons
