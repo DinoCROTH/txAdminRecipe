@@ -41,7 +41,7 @@ tasks:
 
   - action: connect_database
   - action: query_database
-    file: ./tmp/qbrcore/dinocore.sql
+    file: ./tmp/dinocore/dinocore.sql
 
 ##################################################################### Downloading Standalone Resources
 
