@@ -27,10 +27,10 @@ tasks:
   - action: download_github
     src: https://github.com/DinoCROTH/txAdminRecipe
     ref: main
-    dest: ./tmp/dinorcore
+    dest: ./tmp/dinocore
 
   - action: move_path
-    src: ./tmp/dinorcore/server.cfg
+    src: ./tmp/dinocore/server.cfg
     dest: ./server.cfg
 
   - action: move_path
