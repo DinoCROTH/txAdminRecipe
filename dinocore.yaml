@@ -95,39 +95,84 @@ tasks:
 ##################################################################### Download Core resources
 
   - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-adminmenu
+    ref: main
+    dest: ./resources/[qbr]/qbr-adminmenu
+    
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-clothing
+    ref: main
+    dest: ./resources/[qbr]/qbr-clothing
+
+  - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-core
     ref: main
-    dest: ./resources/[dinocore]/qbr-core
+    dest: ./resources/[qbr]/qbr-core
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-hud
     ref: main
-    dest: ./resources/[dinocore]/qbr-hud
+    dest: ./resources/[qbr]/qbr-hud
+    
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-input
+    ref: main
+    dest: ./resources/[qbr]/qbr-input
+    
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-interiors
+    ref: main
+    dest: ./resources/[qbr]/qbr-interiors
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-inventory
     ref: main
-    dest: ./resources/[dinocore]/qbr-inventory
+    dest: ./resources/[qbr]/qbr-inventory
+    
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-management
+    ref: main
+    dest: ./resources/[qbr]/qbr-management
     
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-menu
     ref: main
-    dest: ./resources/[dinocore]/qbr-menu
+    dest: ./resources/[qbr]/qbr-menu
+
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-multicharacter
+    ref: main
+    dest: ./resources/[qbr]/qbr-multicharacter
+
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-scoreboard
+    ref: main
+    dest: ./resources/[qbr]/qbr-scoreboard
+
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-shops
+    ref: main
+    dest: ./resources/[qbr]/qbr-shops
   
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-smallresources
     ref: main
-    dest: ./resources/[dinocore]/qbr-smallresources
+    dest: ./resources/[qbr]/qbr-smallresources
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-spawn
     ref: main
-    dest: ./resources/[dinocore]/qbr-spawn
+    dest: ./resources/[qbr]/qbr-spawn
+
+  - action: download_github
+    src: https://github.com/qbcore-redm-framework/qbr-weapons
+    ref: main
+    dest: ./resources/[qbr]/qbr-weapons
 
   - action: download_github
     src: https://github.com/qbcore-redm-framework/qbr-weathersync
     ref: main
-    dest: ./resources/[dinocore]/qbr-weathersync
+    dest: ./resources/[qbr]/qbr-weathersync
     
 ##################################################################### End
   
