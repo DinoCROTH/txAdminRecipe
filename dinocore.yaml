@@ -94,7 +94,7 @@ tasks:
 
 ##################################################################### Download Core resources
   - action: waste_time # prevent github throttling
-    seconds: 10
+    seconds: 2
 
   - action: download_github
     src: https://github.com/DinoCROTH/dcr-core
