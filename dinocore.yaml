@@ -45,66 +45,66 @@ tasks:
 
 ##################################################################### Downloading Standalone Resources
 
-  - action: download_github
+  - action: download_cfx-server-data
     src: https://github.com/citizenfx/cfx-server-data
     subpath: resources
     dest: ./resources/[cfx-default]
   
-  - action: download_file
+  - action: download_oxmysql
     path: ./tmp/files/oxmysql.zip
     url: https://github.com/overextended/oxmysql/releases/download/v2.7.1/oxmysql.zip
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/oxmysql.zip
     
-  - action: download_github
+  - action: download_connectqueue
     dest: ./resources/[standalone]/connectqueue
     ref: master
     src: https://github.com/qbcore-framework/connectqueue
     
-  - action: download_github
+  - action: download_progressbar
     dest: ./resources/[standalone]/progressbar
     ref: main
     src: https://github.com/qbcore-redm-framework/progressbar
     
-  - action: download_github
+  - action: download_safecracker
     dest: ./resources/[standalone]/safecracker
     ref: main
     src: https://github.com/qbcore-redm-framework/safecracker
     
-  - action: download_github
+  - action: download_PolyZone
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-redm-framework/PolyZone
 
-  - action: download_github
+  - action: download_pma-voice
     dest: ./resources/[standalone]/pma-voice
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
 
-  - action: download_github
+  - action: download_menuv
     dest: ./resources/[standalone]/menuv
     ref: master
     src: https://github.com/qbcore-redm-framework/menuv
 
-  - action: download_github
+  - action: download_mediccamp
     dest: ./resources/[standalone]/mediccamp
     ref: main
     src: https://github.com/qbcore-redm-framework/mediccamp
 
 ##################################################################### Download Core resources
 
-  - action: download_github
+  - action: download_dcr-core
     src: https://github.com/DinoCROTH/dcr-core
     ref: main
     dest: ./resources/[dinocore]/DinoCROTH/dcr-core
 
-  - action: download_github
+  - action: download_dcr-spawn
     src: https://github.com/DinoCROTH/dcr-spawn
     ref: main
     dest: ./resources/[dinocore]/dcr-spawn
 
-  - action: download_github
+  - action: download_dcr-multicharacter
     src: https://github.com/DinoCROTH/dcr-multicharacter
     ref: main
     dest: ./resources/[dinocore]/dcr-multicharacter
