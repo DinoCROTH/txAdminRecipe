@@ -50,44 +50,44 @@ tasks:
     subpath: resources
     dest: ./resources/[cfx-default]
   
-  - action: download_oxmysql
+  - action: download_file
     path: ./tmp/files/oxmysql.zip
     url: https://github.com/overextended/oxmysql/releases/download/v2.7.1/oxmysql.zip
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/oxmysql.zip
     
-  - action: download_connectqueue
+  - action: download_github
     dest: ./resources/[standalone]/connectqueue
     ref: master
     src: https://github.com/qbcore-framework/connectqueue
     
-  - action: download_progressbar
+  - action: download_github
     dest: ./resources/[standalone]/progressbar
     ref: main
     src: https://github.com/qbcore-redm-framework/progressbar
     
-  - action: download_safecracker
+  - action: download_github
     dest: ./resources/[standalone]/safecracker
     ref: main
     src: https://github.com/qbcore-redm-framework/safecracker
     
-  - action: download_PolyZone
+  - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-redm-framework/PolyZone
 
-  - action: download_pma-voice
+  - action: download_github
     dest: ./resources/[standalone]/pma-voice
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
 
-  - action: download_menuv
+  - action: download_github
     dest: ./resources/[standalone]/menuv
     ref: master
     src: https://github.com/qbcore-redm-framework/menuv
 
-  - action: download_mediccamp
+  - action: download_github
     dest: ./resources/[standalone]/mediccamp
     ref: main
     src: https://github.com/qbcore-redm-framework/mediccamp
