@@ -97,7 +97,7 @@ tasks:
   - action: download_dcr-core
     src: https://github.com/DinoCROTH/dcr-core
     ref: main
-    dest: ./resources/[dinocore]/DinoCROTH/dcr-core
+    dest: ./resources/[dinocore]/dcr-core
 
   - action: download_dcr-spawn
     src: https://github.com/DinoCROTH/dcr-spawn
