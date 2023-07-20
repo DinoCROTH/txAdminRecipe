@@ -93,18 +93,20 @@ tasks:
     src: https://github.com/qbcore-redm-framework/mediccamp
 
 ##################################################################### Download Core resources
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
-  - action: download_dcr-core
+  - action: download_github
     src: https://github.com/DinoCROTH/dcr-core
     ref: main
     dest: ./resources/[dinocore]/dcr-core
 
-  - action: download_dcr-spawn
+  - action: download_github
     src: https://github.com/DinoCROTH/dcr-spawn
     ref: main
     dest: ./resources/[dinocore]/dcr-spawn
 
-  - action: download_dcr-multicharacter
+  - action: download_github
     src: https://github.com/DinoCROTH/dcr-multicharacter
     ref: main
     dest: ./resources/[dinocore]/dcr-multicharacter
