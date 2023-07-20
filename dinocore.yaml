@@ -45,7 +45,7 @@ tasks:
 
 ##################################################################### Downloading Standalone Resources
 
-  - action: download_cfx-server-data
+  - action: download_github
     src: https://github.com/citizenfx/cfx-server-data
     subpath: resources
     dest: ./resources/[cfx-default]
