@@ -437,6 +437,10 @@ tasks:
     ref: main
     src: https://github.com/DinoCROTH/dt-objectremove    
     
+  - action: download_github
+    dest: ./resources/[dt]/dt-vehloot
+    ref: main
+    src: https://github.com/DinoCROTH/dt-vehloot        
 
 
   # Clean up
