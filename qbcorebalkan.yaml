@@ -431,6 +431,13 @@ tasks:
     dest: ./resources/[dt]/dt-bags
     ref: main
     src: https://github.com/DinoCROTH/dt-bags    
+    
+  - action: download_github
+    dest: ./resources/[dt]/dt-objectremove
+    ref: main
+    src: https://github.com/DinoCROTH/dt-objectremove    
+    
+
 
   # Clean up
   - action: remove_path
