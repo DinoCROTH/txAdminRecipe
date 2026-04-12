@@ -116,22 +116,22 @@ tasks:
     src: https://github.com/qbcore-framework/prison_map
 
   - action: download_github
-    dest: ./resources/[maps]
+    dest: ./resources/[maps]/Vagos-Interior
     ref: main
     src: https://github.com/DinoCROTH/Vagos-Interior    
     
   - action: download_github
-    dest: ./resources/[maps]
+    dest: ./resources/[maps]/Marabunta-Interior
     ref: main
     src: https://github.com/DinoCROTH/Marabunta-Interior
 
   - action: download_github
-    dest: ./resources/[maps]
+    dest: ./resources/[maps]/Famillies-Interior
     ref: main
     src: https://github.com/DinoCROTH/Famillies-Interior   
 
   - action: download_github
-    dest: ./resources/[maps]
+    dest: ./resources/[maps]/Ballas-Interior
     ref: main
     src: https://github.com/DinoCROTH/Ballas-Interior     
 
