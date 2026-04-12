@@ -113,27 +113,7 @@ tasks:
   - action: download_github
     dest: ./resources/[defaultmaps]/[prison_map]
     ref: main
-    src: https://github.com/qbcore-framework/prison_map
-
-  - action: download_github
-    dest: ./resources/[defaultmaps]/Vagos-Interior
-    ref: main
-    src: https://github.com/DinoCROTH/Vagos-Interior   
-    
-  - action: download_github
-    dest: ./resources/[defaultmaps]/Marabunta-Interior
-    ref: main
-    src: https://github.com/DinoCROTH/Marabunta-Interior
-
-  - action: download_github
-    dest: ./resources/[defaultmaps]/Famillies-Interior
-    ref: main
-    src: https://github.com/DinoCROTH/Famillies-Interior
-
-  - action: download_github
-    dest: ./resources/[defaultmaps]/Ballas-Interior
-    ref: main
-    src: https://github.com/DinoCROTH/Ballas-Interior     
+    src: https://github.com/qbcore-framework/prison_map  
 
   - action: waste_time # prevent github throttling
     seconds: 10
