@@ -295,7 +295,7 @@ CREATE TABLE IF NOT EXISTS `inventories` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 
-CREATE TABLE `removedobjects` (
+CREATE TABLE IF NOT EXISTS `removedobjects` (
   `id` int NOT NULL AUTO_INCREMENT,
   `model` varchar(255) DEFAULT NULL,
   `coords` text,
