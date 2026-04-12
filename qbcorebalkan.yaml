@@ -118,7 +118,7 @@ tasks:
   - action: download_github
     dest: ./resources/[maps]/Vagos-Interior
     ref: main
-    src: https://github.com/DinoCROTH/Vagos-Interior    
+    src: https://github.com/TRANEdAK1nG/Vagos-Interior   
     
   - action: download_github
     dest: ./resources/[maps]/Marabunta-Interior
@@ -128,7 +128,7 @@ tasks:
   - action: download_github
     dest: ./resources/[maps]/Famillies-Interior
     ref: main
-    src: https://github.com/DinoCROTH/Famillies-Interior   
+    src: https://github.com/DinoCROTH/Famillies-Interior
 
   - action: download_github
     dest: ./resources/[maps]/Ballas-Interior
