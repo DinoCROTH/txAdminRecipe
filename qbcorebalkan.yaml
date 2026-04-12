@@ -3,7 +3,7 @@ $onesync: on
 name: QBCore Framework Balkan Edition
 version: 2.2.4
 author: JericoFx & Kakarot & Hamy
-Modified by: DinoCROTH with map
+Modified by: DinoCROTH with maps
 description: An advanced FiveM RP framework including jobs, gangs, housing & more!
 
 tasks:
@@ -116,22 +116,22 @@ tasks:
     src: https://github.com/qbcore-framework/prison_map
 
   - action: download_github
-    dest: ./resources/[maps]/Vagos-Interior
+    dest: ./resources/[defaultmaps]/Vagos-Interior
     ref: main
-    src: https://github.com/TRANEdAK1nG/Vagos-Interior   
+    src: https://github.com/DinoCROTH/Vagos-Interior   
     
   - action: download_github
-    dest: ./resources/[maps]/Marabunta-Interior
+    dest: ./resources/[defaultmaps]/Marabunta-Interior
     ref: main
     src: https://github.com/DinoCROTH/Marabunta-Interior
 
   - action: download_github
-    dest: ./resources/[maps]/Famillies-Interior
+    dest: ./resources/[defaultmaps]/Famillies-Interior
     ref: main
     src: https://github.com/DinoCROTH/Famillies-Interior
 
   - action: download_github
-    dest: ./resources/[maps]/Ballas-Interior
+    dest: ./resources/[defaultmaps]/Ballas-Interior
     ref: main
     src: https://github.com/DinoCROTH/Ballas-Interior     
 
