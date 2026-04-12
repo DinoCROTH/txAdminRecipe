@@ -421,6 +421,16 @@ tasks:
     dest: ./resources/[dt]/dt-vehiclekeys
     ref: main
     src: https://github.com/DinoCROTH/dt-vehiclekeys
+    
+  - action: download_github
+    dest: ./resources/[dt]/dt-handling
+    ref: main
+    src: https://github.com/DinoCROTH/dt-handling   
+    
+  - action: download_github
+    dest: ./resources/[dt]/dt-bags
+    ref: main
+    src: https://github.com/DinoCROTH/dt-bags    
 
   # Clean up
   - action: remove_path
