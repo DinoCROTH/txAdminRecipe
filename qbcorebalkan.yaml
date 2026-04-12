@@ -417,6 +417,11 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
 
+  - action: download_github
+    dest: ./resources/[dt]/dt-vehiclekeys
+    ref: main
+    src: https://github.com/DinoCROTH/dt-vehiclekeys
+
   # Clean up
   - action: remove_path
     path: ./tmp
